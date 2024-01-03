@@ -719,7 +719,7 @@ contract ShepherdCoin is Context, IERC20, Ownable {
     
     constructor() {
         _rOwned[owner()] = _rTotal;
-        IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D); // mainnet router address
+        IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff); // mainnet router address
         //IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D); // testnet router address
         
         // Create a uniswap pair for this new token
